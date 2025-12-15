@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    //Plugin incluido
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -55,6 +57,7 @@ dependencies {
     implementation(libs.androidx.okhttp)
     implementation(libs.androidx.coil.compose)
     implementation(libs.androidx.serialization.json)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
 
     //androidx-retrofit-serialization = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version = "1.0.0" }
     //androidx-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version = "3.0.0" }

@@ -12,7 +12,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.pm_mars_photos.ui.MarsPhotosApp
 import com.example.pm_mars_photos.ui.theme.Pm_mars_photosTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pm_mars_photosTheme {
                 Surface() {
-                    MarsPhotosApp()
+                    Text("A implementar por el estudiante")
                 }
             }
         }

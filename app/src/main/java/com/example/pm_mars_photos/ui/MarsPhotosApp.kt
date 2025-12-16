@@ -32,8 +32,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.pm_mars_photos.ui.screens.HomeScreen
 import com.example.pm_mars_photos.R
+import com.example.pm_mars_photos.ui.screens.HomeScreen
 import com.example.pm_mars_photos.ui.screens.MarsViewModel
 
 
@@ -50,7 +50,7 @@ fun MarsPhotosApp() {
             val marsViewModel: MarsViewModel = viewModel()
             HomeScreen(
                 marsUiState = marsViewModel.marsUiState,
-                contentPadding = it,
+                contentPadding = it
             )
         }
     }

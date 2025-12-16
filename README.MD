@@ -1,6 +1,6 @@
 Mars Photos
 ==================================
-En esta rama main del proyecto se recuperan las fotos y se renderiza
+En esta rama  del proyecto se recuperan las fotos y se renderiza
 un mensaje indicando el numero de fotos obtenidas:
 "Success: 838 retrieved"
 No se utiliza inyeccion de dependencias

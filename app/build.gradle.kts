@@ -59,14 +59,10 @@ dependencies {
     implementation(libs.androidx.serialization.json)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
-    //androidx-retrofit-serialization = { group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version = "1.0.0" }
-    //androidx-retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version = "3.0.0" }
-    //androidx-okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version = "5.3.2" }
-    //androidx-coil-compose = { group = "io.coil-kt", name = "coil-compose", version = "3.3.0" }
-    //androidx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version = "1.9.0" }
-
 
     testImplementation(libs.junit)
+    //Agregada
+    testImplementation(libs.kotlinx.coroutines.test)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))

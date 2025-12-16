@@ -42,12 +42,3 @@ interface MarsApiService {
     @GET("photos")
     suspend fun getPhotos(): List<MarsPhoto>
 }
-
-/**
- * A public Api object that exposes the lazy-initialized Retrofit service
- */
-object MarsApi {
-    val retrofitService: MarsApiService by lazy {
-        retrofit.create(MarsApiService::class.java)
-    }
-}

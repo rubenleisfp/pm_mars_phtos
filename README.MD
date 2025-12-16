@@ -1,7 +1,7 @@
 Mars Photos
 ==================================
-En esta rama  del proyecto se recuperan las fotos y se renderizan en pantalla
-Utiliza un repositorio e inyeccion de dependencias
+En esta rama  del proyecto se recuperan el JSON del API y se muestra el número total de elementos recuperados. No se renderizan las imágenes
+Se utiliza un repositorio e inyección de dependencias
 
 Es una aplicación demo que muestra fotos de la superficio de Marte.
 Estas fotos están alojadas en un Servidor Web, concretamente en un Servicio Rest

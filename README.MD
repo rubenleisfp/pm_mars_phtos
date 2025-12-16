@@ -1,7 +1,9 @@
 Mars Photos
 ==================================
-En esta rama main del proyecto se recuperan las fotos y se renderizan las imagenes
-con el componente AsyncImage. No se utiliza inyeccion de dependencias
+En esta rama main del proyecto se recuperan las fotos y se renderiza
+un mensaje indicando el numero de fotos obtenidas:
+"Success: 838 retrieved"
+No se utiliza inyeccion de dependencias
 
 Es una aplicación demo que muestra fotos de la superficio de Marte.
 Estas fotos están alojadas en un Servidor Web, concretamente en un Servicio Rest
